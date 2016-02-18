@@ -1,0 +1,24 @@
+/////////////////////////////////////////Web.xml///////////////////////////////////////////////////////////////
+
+
+
+<web-app xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1"><display-name>SSDI</display-name><welcome-file-list><welcome-file>index.jsp</welcome-file></welcome-file-list><servlet><servlet-name> com.ssdi.StudentInfo  </servlet-name><servlet-class>com.ssdi.StudentInfo </servlet-class></servlet><servlet-mapping><servlet-name>com.ssdi.StudentInfo </servlet-name><url-pattern>/StudentInfo</url-pattern></servlet-mapping></web-app>
+
+//////////////////////////////////////////////index.JSP////////////////////////////////////////////////////////
+
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Student Subjects</title>
+</head>
+<body>
+<a href="StudentInfo"> Table </a>
+</body>
+</html>
+
+
+
+
